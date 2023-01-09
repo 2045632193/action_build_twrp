@@ -21,11 +21,12 @@ jobs:
         sudo apt -y autoclean
         sudo apt clean
         sudo apt update
+        git clone https://github.com/rokibhasansagar/slimhub_actions
+        cd slimhub_actions
+        sudo chmod 777 cleanup.sh
+        sudo ./cleanup.sh
+        cd ../
       
-    - uses: actions/checkout@v2
-      
-    - uses: rokibhasansagar/slimhub_actions@main
-    
     - name: Install packages
       run: |
         sudo apt -y upgrade
