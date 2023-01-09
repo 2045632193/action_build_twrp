@@ -1,6 +1,6 @@
 {
   "twrp_url": "https://github.com/omnirom/android.git",
-  "twrp_branch": "android-13.0",
+  "twrp_branch": "android-10.0",
   "git_username": "2045632193",
   "git_email": "2045632193@qq.com",
   "use_own_dt": true,
