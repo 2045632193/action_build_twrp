@@ -21,7 +21,7 @@ jobs:
         sudo apt -y autoclean
         sudo apt clean
         sudo apt update
-        git clone https://github.com/rokibhasansagar/slimhub_actions
+        git clone https://github.com/2045632193/slimhub_actions
         cd slimhub_actions
         sudo chmod 777 cleanup.sh
         sudo ./cleanup.sh
