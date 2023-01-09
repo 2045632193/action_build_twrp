@@ -5,7 +5,7 @@
   "git_email": "2045632193@qq.com",
   "use_own_dt": true,
   "dt_url": "2045632193/device_vivo_PD1813",
-  "dt_branch": "vivo/1806/1806:10/QP1A.190711.020/compiler12301213:user/release-keys",
+  "dt_branch": "main",
   "dt_remote": "github",
   "dt_path": "device/vivo/k71v1_64_bsp",
   "device_code": "k71v1_64_bsp",
